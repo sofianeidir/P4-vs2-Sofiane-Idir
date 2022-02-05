@@ -1,3 +1,23 @@
+/*** MES CORRECTIONS ***/
+
+.text-citations {
+    font-size: 25px;
+    max-width: 670px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.text-citations_auteur {
+    font-size: 15px;
+}
+.resaux {
+    color: white!important;
+    font-size: 16px;
+}
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -99,9 +119,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
+
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -736,7 +754,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
+    font-size: 16px;
 }
 
 .portfolio-thumb {
@@ -753,7 +772,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background: #FFFF;
     padding: 40px 40px 40px 40px;
 }
 
@@ -766,17 +785,14 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
     background-color: #834A2F;
 }
 
 .tc-white {
-    color: #FFFF!important;
+    color: black!important;
     font-size: 26px;
+    line-height: 35px;
 }
 
 .btn-atomic-tangerine {
@@ -790,7 +806,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white:hover {
@@ -825,6 +841,8 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+/** MEDIA QUERIES **/
 
 @media (max-width: 1024px) {
     .bloc {
