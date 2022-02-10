@@ -15,6 +15,13 @@
     font-size: 16px;
 }
 
+.title-black {
+    color: black!important;
+    font-size: 26px;
+    line-height: 35px;
+    position: relative;
+}
+
 
 
 
@@ -48,7 +55,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+   /** width: 100%;***/
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -108,10 +115,12 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    
+
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper\ copie\ Small.png");
     background-size: 280px 280px;
 }
 
@@ -316,12 +325,12 @@ a:hover {
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
-    line-height: 44px;
+   
 }
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
+    margin: 25px 5px 0 0;
     display: inline;
 }
 
@@ -335,15 +344,17 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+   /*** margin-right: -16px; ***/
     float: right;
     z-index: 1;
 }
 
 .nav > li {
     float: left;
-    margin-top: 4px;
+    margin-top: -15px;
     font-size: 16px;
+    padding-right: 40px;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -673,11 +684,15 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+   /*** max-width: 1000px;**/
+   width: 100%;
+
 }
 
 .hero-bloc-text {
     font-size: 38px;
+    margin: auto;
+    max-width: 600px;
 }
 
 .hero-bloc-text-sub {
@@ -718,6 +733,7 @@ p {
 }
 
 .social {
+
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -754,7 +770,7 @@ h4 {
 }
 
 .white {
-    color: black!important;
+    color: #FFFF!important;
     font-size: 16px;
 }
 
@@ -772,8 +788,8 @@ h4 {
 }
 
 .black-background {
-    background: #FFFF;
     padding: 40px 40px 40px 40px;
+    background-color: black;
 }
 
 .bold-link {
@@ -790,9 +806,11 @@ h4 {
 }
 
 .tc-white {
-    color: black!important;
+    color: #FFFF!important;
     font-size: 26px;
     line-height: 35px;
+    position: relative;
+    
 }
 
 .btn-atomic-tangerine {
@@ -806,7 +824,7 @@ h4 {
 }
 
 .ltc-white {
-    color: black!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
@@ -827,19 +845,21 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg\ copie.png");
+
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg\ Small.jpeg");
 }
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+   /*** background-color: black;***/
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation\ copie\ Medium.jpeg");
 }
 
 /** MEDIA QUERIES **/
