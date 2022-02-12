@@ -364,7 +364,7 @@
                 g = e.defaultView;
             return e !== l && 9 === e.nodeType && e.documentElement ? (l = e, m = e.documentElement, n = !f(e), g && g !== g.top && (g.addEventListener ? g.addEventListener("unload", function() {
                 k()
-            }, !1) : g.attachEvent && g.attachEvent("onunload", function() {
+            }, !1) : g.attachEvent && g.attachEvent("pagehade", function() {
                 k()
             })), c.attributes = gb(function(a) {
                 return a.className = "i", !a.getAttribute("className")

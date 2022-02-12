@@ -8,6 +8,8 @@
  * http://ReactiveRaven.github.com/jqBootstrapValidation/
  */
 
+
+
 (function( $ ){
 
 	var createdElements = [];
@@ -24,7 +26,7 @@
 				helpBlocks: true
 			},
             filter: function () {
-                // return $(this).is(":visible"); // only validate elements you can see
+                 return $(this).is(":visible"); // only validate elements you can see
                 return true; // validate everything
             }
 		},
@@ -101,7 +103,7 @@
           // *snort sniff snuffle*
 
           if (settings.options.sniffHtml) {
-            var message = "";
+            var message = "Pleas try again";
             // ---------------------------------------------------------
             //                                                   PATTERN
             // ---------------------------------------------------------
@@ -836,7 +838,7 @@
 			required: {
 				name: "Required",
 				type: "required",
-				message: "This is required<!-- data-validator-required-message to override -->"
+				message: "Champ obligatoire<!-- data-validator-required-message to override -->"
 			},
 			checkone: {
 				name: "Checkone",
